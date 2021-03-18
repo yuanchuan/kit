@@ -30,9 +30,15 @@ pnpm i
 pnpm -r build
 ```
 
+#### Example Apps
+
 You should now be able to run the [examples](examples) by navigating to one of the directories and doing `pnpm dev`.
 
 Run `pnpm dev` inside the `packages/kit` directory to continually rebuild `@sveltejs/kit` as you make changes to SvelteKit. Restarting the example/test apps will cause the newly built version to be used.
+
+#### Site + Documentation
+
+To run the Svelte Kit site locally, check out [the sites repository](https://github.com/sveltejs/sites) and follow the README instructions.
 
 ### Changelogs
 
